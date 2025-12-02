@@ -1,3 +1,4 @@
+import 'C:\Users\Mark Frangainho\Documents\Portfolio\portfolio\src\ProfilePicture.css'; 
 function ProfilePicture({imagePath}) {
     return (
         <div className="profile-wrapper">
