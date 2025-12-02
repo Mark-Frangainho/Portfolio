@@ -1,1 +1,13 @@
 
+body {
+  margin: 0;
+  padding: 0;
+  background-color: royalblue;
+}
+.hero {               /* full screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.18);
+}

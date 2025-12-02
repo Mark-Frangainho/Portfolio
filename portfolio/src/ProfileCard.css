@@ -1,0 +1,15 @@
+.profile-card-container {
+    display: grid;
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px;
+    border-radius: 25px;
+}
+.profile-intro h2 {
+    font-size: 40px;
+}
+.profile-intro p {
+    font-size: 28px;
+}

@@ -1,12 +1,15 @@
 import { useState } from 'react'
 import './App.css'
 import ProfilePicture from './profilePicture'
+import ProfileCard from './ProfileCard'
 
 function App() {
   
   return (
     <>
-      <ProfilePicture imagePath={"src/assets/react.svg"} />
+      <div className='hero'>
+        <ProfileCard/>
+      </div>
     </>  
   )
 }
