@@ -2,12 +2,58 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: royalblue;
+  background-image: radial-gradient(circle, rgb(106, 138, 235), #A7D3FF);
+  font-family: 'Inter', sans-serif;
 }
-.hero {               /* full screen */
+.hero {               
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 30px;
   box-shadow: 0 6px 30px rgba(0, 0, 0, 0.18);
+  border-radius: 25px;
+}
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.18);
+  border-radius: 25px;
+}
+.technical-skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.18);
+  border-radius: 25px;
+  background-color: white;
+}
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.18);
+  border-radius: 25px;
+  background-color: white;
+}
+footer {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding-top: 20px;
+}
+footer a {
+  margin-left: 10px;
+  padding: 12px 20px;
+  border: 2px solid royalblue;
+  border-radius: 6px;
+  color: royalblue;
+  text-decoration: none;
+  font-weight: bold;
+  
 }

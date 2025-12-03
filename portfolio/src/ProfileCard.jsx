@@ -3,7 +3,7 @@ import "./ProfileCard.css";
 function ProfileCard() {
     return (
         <div className="profile-card-container">
-            <ProfilePicture imagePath={"src/assets/react.svg"}/>
+            <ProfilePicture imagePath={"src/assets/me.png"}/>
             <div className="profile-intro">
                 <h2>Hey, i'm Mark</h2>
                 <p>a full-stack developer. </p>

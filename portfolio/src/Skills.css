@@ -1,0 +1,20 @@
+
+.skills-section table {
+  
+  width: 700px;    
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+  margin-bottom: 40px;
+}
+.skills-section th {
+  background: rgb(106, 138, 235);
+  padding: 20px;
+  font-weight: 600;
+  
+}
+.skills-section td {
+  padding: 20px;
+}
